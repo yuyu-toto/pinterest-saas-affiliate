@@ -22,5 +22,11 @@
 
 ## 次のアクション
 
-- [ ] ユーザー自身で https://www.teamwork.com/referral-program/ からアフィリエイト申請
-- [ ] 承認後、実際のダッシュボード上の最終規約（上記と相違ないか）を再確認
+- [x] ユーザー自身で https://www.teamwork.com/referral-program/ からアフィリエイト申請
+- [x] 承認後、実際のダッシュボード上の最終規約（上記と相違ないか）を再確認
+
+## 実際に確認できたこと（2026-08-19、アカウント作成後）
+
+別途申請フォームは不要だった。**Teamwork.comの無料アカウントを作成した時点で、Settings → More... → Referral にユニークな紹介リンクが自動発行されていた。** 画面表示は「15% commission」と明記されており、上記の規約と一致。Total earnings / Paid / Pendingのダッシュボードも同じ画面で確認可能。
+
+リンクは `.env` の `TEAMWORK_REFERRAL_LINK` に保存する運用とする（gitignore対象なので安全）。
