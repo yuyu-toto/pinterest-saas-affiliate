@@ -1,0 +1,29 @@
+name: Post to Pinterest
+
+# ロードマップ8番（自動化）まではcronを有効化しない。
+# 手動投稿での検証が終わり post_pinterest.py の実装が固まってから
+# 下記の schedule セクションのコメントを外す。
+on:
+  workflow_dispatch: {}
+  # schedule:
+  #   - cron: "0 9 * * *"  # 毎日9:00 UTC（JST 18:00）に実行する想定
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Post scheduled pins
+        env:
+          PINTEREST_APP_ID: ${{ secrets.PINTEREST_APP_ID }}
+          PINTEREST_APP_SECRET: ${{ secrets.PINTEREST_APP_SECRET }}
+          PINTEREST_ACCESS_TOKEN: ${{ secrets.PINTEREST_ACCESS_TOKEN }}
+        run: python scripts/post_pinterest.py
