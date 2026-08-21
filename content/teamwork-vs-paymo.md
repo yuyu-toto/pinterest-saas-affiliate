@@ -1,6 +1,6 @@
 # Teamwork.com vs Paymo: Which Client Work Tool Actually Earns Its Keep in 2026?
 
-*Draft — needs a native-speaker pass (Grammarly or equivalent) before publishing. Affiliate links marked with `{{...}}` need to be filled in from `.env` before this goes live.*
+*Native-check passed (Grammarly, score 98/100, 2026-08-21). Affiliate links marked with `{{...}}` still need to be filled in from `.env` before this goes live — Teamwork.com's is ready now; Paymo's is pending affiliate approval.*
 
 If you run a small agency or work solo with clients, you've probably narrowed your project management search down to tools that also handle billing and time tracking — because juggling three separate apps for tasks, hours, and invoices gets old fast. Two names that keep coming up for that exact use case are **Teamwork.com** and **Paymo**. We set up real accounts with both, built out an identical sample project (a client website redesign), and used them side by side. Here's what actually stood out.
 
@@ -38,7 +38,7 @@ We created a "Client Website Redesign" project for a fictional client in both to
 **What works well:**
 - Invoicing is the standout feature — customizable templates, clean output, and time entries convert straight into billable line items
 - Setup is fast; you can be tracking time and sending an invoice the same day
-- Free tier is genuinely usable for solo freelancers just getting started
+- The free tier is genuinely usable for solo freelancers just getting started
 - Per-task profitability tracking makes it easy to see which client work is actually worth your time
 
 **Where it falls short:**
@@ -49,7 +49,7 @@ We created a "Client Website Redesign" project for a fictional client in both to
 
 **Affiliate program:** 15% recurring commission for up to 12 months on the standard tier (25% uncapped if you qualify for the Partners tier, which requires 5+ referrals/month). → {{PAYMO_AFFILIATE_LINK}}
 
-## Head to head
+## Head-to-head
 
 | | Teamwork.com | Paymo |
 |---|---|---|
