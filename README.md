@@ -14,6 +14,8 @@
 - **記事の質**: AI丸投げにせず、Grammarly等でのネイティブチェックを必ず一段階挟む
 - **記事の公開先**: Medium（無料プラン）。アフィリエイトリンクは許可されているが開示必須（Medium規約・FTC準拠）。記事末尾に開示文を必ず入れる
 - **対象SaaS**: Teamwork.com（アカウント作成済み、リファラルリンク発行済み・`.env`の`TEAMWORK_REFERRAL_LINK`）、Paymo（アカウント作成済み・アフィリエイト申請済み、審査待ち）
+- **Pinterestビジネスアカウント**: 作成済み（ビジネス名「ClientStack Reviews」）。API v5アプリ「ClientStack Reviews Pin Manager」（アプリID: 1603206）を申請済み、Trialアクセス審査待ち
+- **GitHub Pages**: `https://yuyu-toto.github.io/pinterest-saas-affiliate/`（Pinterest API申請のビジネスサイト/プライバシーポリシー用に`docs/`配下で公開）
 
 ## フォルダ構成
 
