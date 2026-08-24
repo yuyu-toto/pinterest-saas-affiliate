@@ -1,7 +1,7 @@
 # ピンコピー バッチ1: Teamwork.com vs Paymo（試験投稿 8枚）
 
 元記事: `content/teamwork-vs-paymo.md`
-リンク先: `{{MEDIUM_ARTICLE_URL}}` ※Medium公開後にURLを埋める
+リンク先: https://medium.com/@naruyouni2527/teamwork-com-vs-paymo-which-client-work-tool-actually-earns-its-keep-in-2026-322cb934aca8?utm_source=Pinterest&utm_medium=organic
 ボード案: "Best Project Management Tools" / "Client Work & Agency Tools"
 
 各ピンの構成: 画像見出し（Canvaでピン画像に載せる短いテキスト）/ ピンタイトル（Pinterest上のタイトル欄）/ ピン説明文（検索キーワードを含む本文）/ Alt text
@@ -67,7 +67,7 @@
 ---
 
 ## 投稿前チェックリスト
-- [ ] Medium記事を公開し、`{{MEDIUM_ARTICLE_URL}}` を実URLに置き換える
+- [x] Medium記事公開・リンク先URL反映済み
 - [ ] 各ピンの説明文にアフィリエイト開示が必要か再確認（Pinterestは説明文に開示不要だが、リンク先記事側で開示済み）
 - [ ] 画像ファイルを `pins/images/` に保存（ファイル名は `data/schedule_queue.csv` の image_file 列と一致させる）
 - [ ] `data/schedule_queue.csv` に投稿予定として8行を追記済み（status=draft）

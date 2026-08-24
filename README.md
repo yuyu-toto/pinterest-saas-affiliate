@@ -16,7 +16,8 @@
 - **対象SaaS**: Teamwork.com（アカウント作成済み、リファラルリンク発行済み・`.env`の`TEAMWORK_REFERRAL_LINK`）、Paymo（アカウント作成済み・アフィリエイト申請済み、審査待ち）
 - **Pinterestビジネスアカウント**: 作成済み（ビジネス名「ClientStack Reviews」）。API v5アプリ「ClientStack Reviews Pin Manager」（アプリID: 1603206）を申請済み、Trialアクセス審査待ち
 - **GitHub Pages**: `https://yuyu-toto.github.io/pinterest-saas-affiliate/`（Pinterest API申請のビジネスサイト/プライバシーポリシー用に`docs/`配下で公開）
-- **ピン試験投稿バッチ1**: `teamwork-vs-paymo`記事から8種類のピン案を作成（`pins/copy/batch1_teamwork_vs_paymo.md`）。画像はCanva（ブランドキット適用）で生成済み・各ピンの編集リンクをコピーファイルに記載。`data/schedule_queue.csv`にdraftとして登録。Pinterest API未承認のため手動投稿予定
+- **記事公開**: `teamwork-vs-paymo`記事をMediumで公開済み → https://medium.com/@naruyouni2527/teamwork-com-vs-paymo-which-client-work-tool-actually-earns-its-keep-in-2026-322cb934aca8
+- **ピン試験投稿バッチ1**: 上記記事から8種類のピン案を作成（`pins/copy/batch1_teamwork_vs_paymo.md`）。画像はCanva（ブランドキット適用）で生成済み・各ピンの編集リンクをコピーファイルに記載。`data/schedule_queue.csv`にdraftとして登録（リンク先URL反映済み）。Pinterest API未承認のため手動投稿予定
 
 ## フォルダ構成
 
