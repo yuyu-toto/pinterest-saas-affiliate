@@ -34,6 +34,7 @@ scripts/
   post_pinterest.py    # Pinterest API投稿（型が固まってから実装）
 data/
   schedule_queue.csv   # 投稿予定管理
+  pin_performance.csv  # ピンごとの反応計測ログ（週次で行を追記）
 .github/workflows/     # GitHub Actionsのスケジュール実行定義
 .env                    # APIキー（.gitignore対象、.env.exampleを参照して作成）
 ```
@@ -46,9 +47,19 @@ data/
 4. ✅ 比較記事の下書きを作成 — リサーチ結果を基に英語記事を執筆。ネイティブチェックを一段階挟む
 5. 🟡 Pinterestビジネスアカウントを整備 — 個人アカウントから切り替え、並行してPinterest API v5の利用申請を進める（審査に時間がかかるため早めに着手）。※ビジネスアカウント作成・API申請済み、Trial審査待ち
 6. ✅ ピンを試験的に手動投稿（5〜10枚） — 自動化前に手動で投稿し反応を見る。※2026-08-24に8枚投稿完了
-7. ⬜ 反応を計測し、型を検証 — クリック率・記事流入・アフィリエイトリンククリックを数週間観察。反応が薄ければ2に戻る
+7. 🟡 反応を計測し、型を検証 — クリック率・記事流入・アフィリエイトリンククリックを数週間観察。反応が薄ければ2に戻る。※`data/pin_performance.csv`に計測ログ用意済み（週1回、下記の値をPinterest/Medium/アフィリエイト管理画面から転記して行を追加）
 8. Pinterest投稿の自動化スクリプトを構築 — 型が固まってから `post_pinterest.py` を実装し、GitHub Actionsでスケジュール実行する
 9. リサーチ自動化とジャンル横展開 — 成果が出た型を他ジャンルにも展開できるよう `research_batch.py` を作り込む
+
+## 反応計測（ロードマップ7番）
+
+`data/pin_performance.csv` にバッチ1の8ピン分の行を用意済み。週1回を目安に以下を確認し、`measured_at`（計測日）を入れて新しい行として追記する（既存行を上書きせず履歴を残す）。
+
+- **impressions / saves / pin_clicks**: Pinterest管理画面のアナリティクスから、ピンごとに確認
+- **outbound_clicks**: Pinterest上の「アウトバウンドクリック」、またはMedium記事側の統計（`utm_source=Pinterest`で絞り込み）
+- **affiliate_clicks / conversions**: Teamwork.com／Paymoのアフィリエイト管理画面のクリック数・成約数
+
+数週間分たまったら傾向を見て、反応が薄ければロードマップ2番（対象SaaS選定）に戻って見直す。
 
 ## 開発上の注意
 
