@@ -17,7 +17,7 @@
 - **Pinterestビジネスアカウント**: 作成済み（ビジネス名「ClientStack Reviews」）。API v5アプリ「ClientStack Reviews Pin Manager」（アプリID: 1603206）を申請済み、Trialアクセス審査待ち
 - **GitHub Pages**: `https://yuyu-toto.github.io/pinterest-saas-affiliate/`（Pinterest API申請のビジネスサイト/プライバシーポリシー用に`docs/`配下で公開）
 - **記事公開**: `teamwork-vs-paymo`記事をMediumで公開済み → https://medium.com/@naruyouni2527/teamwork-com-vs-paymo-which-client-work-tool-actually-earns-its-keep-in-2026-322cb934aca8
-- **ピン試験投稿バッチ1**: 上記記事から8種類のピン案を作成（`pins/copy/batch1_teamwork_vs_paymo.md`）。画像はCanva（ブランドキット適用）で生成済み・各ピンの編集リンクをコピーファイルに記載。`data/schedule_queue.csv`にdraftとして登録（リンク先URL反映済み）。Pinterest API未承認のため手動投稿予定
+- **ピン試験投稿バッチ1**: 上記記事から8種類のピン案を作成（`pins/copy/batch1_teamwork_vs_paymo.md`）。画像はCanva（ブランドキット適用）で生成済み。2026-08-24にPinterestへ8枚すべて手動投稿完了（`data/schedule_queue.csv`のstatus=posted）。次は反応計測（ロードマップ7番）
 
 ## フォルダ構成
 
@@ -40,13 +40,13 @@ data/
 
 ## タスクロードマップ（優先順）
 
-1. プロジェクト環境をセットアップ — フォルダ構成を作成し、Git管理下に置く。`.env`と`.gitignore`を用意
-2. 対象SaaSを1〜2つに絞る — アフィリエイトプログラムの規約を実際に読み、継続報酬型かどうか確認する
-3. Reddit・YouTubeリサーチを実行 — Web検索でユーザーの本音の不満・比較ポイントを収集し `research/{saas_name}/` にまとめる
-4. 比較記事の下書きを作成 — リサーチ結果を基に英語記事を執筆。ネイティブチェックを一段階挟む
-5. Pinterestビジネスアカウントを整備 — 個人アカウントから切り替え、並行してPinterest API v5の利用申請を進める（審査に時間がかかるため早めに着手）
-6. ピンを試験的に手動投稿（5〜10枚） — 自動化前に手動で投稿し反応を見る
-7. 反応を計測し、型を検証 — クリック率・記事流入・アフィリエイトリンククリックを数週間観察。反応が薄ければ2に戻る
+1. ✅ プロジェクト環境をセットアップ — フォルダ構成を作成し、Git管理下に置く。`.env`と`.gitignore`を用意
+2. ✅ 対象SaaSを1〜2つに絞る — アフィリエイトプログラムの規約を実際に読み、継続報酬型かどうか確認する
+3. ✅ Reddit・YouTubeリサーチを実行 — Web検索でユーザーの本音の不満・比較ポイントを収集し `research/{saas_name}/` にまとめる
+4. ✅ 比較記事の下書きを作成 — リサーチ結果を基に英語記事を執筆。ネイティブチェックを一段階挟む
+5. 🟡 Pinterestビジネスアカウントを整備 — 個人アカウントから切り替え、並行してPinterest API v5の利用申請を進める（審査に時間がかかるため早めに着手）。※ビジネスアカウント作成・API申請済み、Trial審査待ち
+6. ✅ ピンを試験的に手動投稿（5〜10枚） — 自動化前に手動で投稿し反応を見る。※2026-08-24に8枚投稿完了
+7. ⬜ 反応を計測し、型を検証 — クリック率・記事流入・アフィリエイトリンククリックを数週間観察。反応が薄ければ2に戻る
 8. Pinterest投稿の自動化スクリプトを構築 — 型が固まってから `post_pinterest.py` を実装し、GitHub Actionsでスケジュール実行する
 9. リサーチ自動化とジャンル横展開 — 成果が出た型を他ジャンルにも展開できるよう `research_batch.py` を作り込む
 
