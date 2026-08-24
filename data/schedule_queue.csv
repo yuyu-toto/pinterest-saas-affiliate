@@ -1,1 +1,9 @@
 pin_id,saas_name,article_url,pin_copy_file,image_file,scheduled_at,status,posted_at,notes
+batch1_pin1,teamwork_paymo,{{MEDIUM_ARTICLE_URL}},pins/copy/batch1_teamwork_vs_paymo.md#pin-1-総合比較王道パターン,pins/images/batch1_pin1.png,,draft,,Canva design ready: https://www.canva.com/d/7lt3rDW7Eo4r9i8 (export as PNG before posting)
+batch1_pin2,paymo,{{MEDIUM_ARTICLE_URL}},pins/copy/batch1_teamwork_vs_paymo.md#pin-2-フリーランス向けpaymo訴求,pins/images/batch1_pin2.png,,draft,,Canva design ready: https://www.canva.com/d/V1IZcNOkFc7JXX9 (export as PNG before posting)
+batch1_pin3,teamwork,{{MEDIUM_ARTICLE_URL}},pins/copy/batch1_teamwork_vs_paymo.md#pin-3-成長中の代理店向けteamwork訴求,pins/images/batch1_pin3.png,,draft,,Canva design ready: https://www.canva.com/d/DpLH0v3M6gsYY1U (export as PNG before posting)
+batch1_pin4,teamwork_paymo,{{MEDIUM_ARTICLE_URL}},pins/copy/batch1_teamwork_vs_paymo.md#pin-4-ペインポイント訴求請求書時タイムトラッキング,pins/images/batch1_pin4.png,,draft,,Canva design ready: https://www.canva.com/d/azsm22L1qGEZvei (export as PNG before posting)
+batch1_pin5,teamwork,{{MEDIUM_ARTICLE_URL}},pins/copy/batch1_teamwork_vs_paymo.md#pin-5-ペインポイント訴求リソース管理,pins/images/batch1_pin5.png,,draft,,Canva design ready: https://www.canva.com/d/bmkeXL_mXhhXZCs (export as PNG before posting)
+batch1_pin6,teamwork_paymo,{{MEDIUM_ARTICLE_URL}},pins/copy/batch1_teamwork_vs_paymo.md#pin-6-リスト形式,pins/images/batch1_pin6.png,,draft,,Canva design ready: https://www.canva.com/d/nLnLJDz3c4y4TpN (export as PNG before posting)
+batch1_pin7,teamwork_paymo,{{MEDIUM_ARTICLE_URL}},pins/copy/batch1_teamwork_vs_paymo.md#pin-7-質問形式迷っている人向け,pins/images/batch1_pin7.png,,draft,,Canva design ready: https://www.canva.com/d/2ZziqGyhVN7iH9O (export as PNG before posting)
+batch1_pin8,paymo,{{MEDIUM_ARTICLE_URL}},pins/copy/batch1_teamwork_vs_paymo.md#pin-8-無料枠訴求,pins/images/batch1_pin8.png,,draft,,Canva design ready: https://www.canva.com/d/LvvDJe3Ygc_VMdv (export as PNG before posting)
