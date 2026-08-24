@@ -61,7 +61,8 @@ dodaチャレンジのカウンセリング拠点は東京・名古屋・大阪�
 
 登録は公式サイトから無料で行えます。
 
-**[dodaチャレンジ公式サイトはこちら](《ここにA8.netで発行したアフィリエイトリンクを貼る》)**
+<a href="https://px.a8.net/svt/ejp?a8mat=4BADDG+198ZIY+47GS+BW8O2&a8ejpredirect=https%3A%2F%2Fdoda.jp%2Fchallenge%2Fpromo%2Fshutoken01.html%3Futm_source%3Da8%26utm_medium%3Dcpc%26utm_campaign%3Daffiliate%26argument%3Dy3Oqv7eK%26dmai%3Da605957b1a1b61%26a8%3D0NBZ9NG73VIOuQIQ51RIWnbjOl_MCVCeB1COGnItAOE73DB2sVR8.nyfCnamgmyCpOiVhcB6pNBZLs00000019630001" rel="nofollow">dodaチャレンジ公式サイトはこちら</a>
+<img border="0" width="1" height="1" src="https://www16.a8.net/0.gif?a8mat=4BADDG+198ZIY+47GS+BW8O2" alt="">
 
 ## まとめ
 
